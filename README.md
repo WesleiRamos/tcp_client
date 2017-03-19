@@ -16,8 +16,8 @@ func main() {
 		println("Conectou-se")
 	})
 
-	conexao.OnMessage(func(message string) {
-		println("Messagem: " + message)
+	conexao.OnMessage(func(message []byte) {
+		println("Messagem: " + string(message))
 	})
 
 	conexao.OnError(func(err error) {
