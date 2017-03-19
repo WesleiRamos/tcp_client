@@ -17,7 +17,7 @@ func main() {
 	})
 
 	conexao.OnMessage(func(message []byte) {
-		println("Messagem: " + string(message))
+		println("Menssagem: " + string(message))
 	})
 
 	conexao.OnError(func(err error) {
