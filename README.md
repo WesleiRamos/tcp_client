@@ -22,6 +22,8 @@ func main() {
 
 	conexao.OnError(func(err error) {
 		if !conexao.Connected {
+			panic(err)
+		} else {
 			println(err.Error())
 		}
 	})
