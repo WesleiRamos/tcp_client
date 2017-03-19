@@ -1,5 +1,5 @@
 # tcp_client
-Lib to create tcp clients fater
+Lib to create tcp clients faster
 
 ## Usage:
 
